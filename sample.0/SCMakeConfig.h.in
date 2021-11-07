@@ -1,0 +1,5 @@
+// the configured options and settings for SCMake
+#define SCMake_VERSION_MAJOR @SCMake_VERSION_MAJOR@
+#define SCMake_VERSION_MINOR @SCMake_VERSION_MINOR@
+
+#cmakedefine USE_SMATH
