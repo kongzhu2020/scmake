@@ -1,14 +1,15 @@
 # 本文介绍如何使用cmake编译C/C++工程
 
 ## 官方文档
-### https://cmake.org/cmake/help/latest/index.html
+### 操作手册（cmake）：https://cmake.org/cmake/help/latest/index.html
+### 编译手册（clang）：https://clang.llvm.org/docs/UsersManual.html
 
-## 常用命令
+## 常用命令, 参考操作手册（cmake）
 $ cmake -B <build dir>
 $ cmake --build <build dir>
 $ cmake --build -DUSE_MATH=OFF <build dir>
 
-## 自定义编译选项 
+## 自定义编译选项, 参考编译手册（clang） 
 ### 1. 打开：XXXConfig.h.in
 ### 2. 添加：#cmakedefine USE_SMATH
 ### 3. 执行：cmake -DUSE_SMATH=OFF -B build
